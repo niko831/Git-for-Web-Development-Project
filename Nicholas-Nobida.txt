@@ -132,12 +132,24 @@ https://codepen.io/niko831/pen/mdJpNRK?editors=1100
 	12. after finishing assignment and pushing the final version, submit PR
 	13. go to your forked copy on github click on branch: master and change to your name branch
 	14. click on new pull request
-	15. change the original repo to own forked repo
+	15. change the base repo to own forked repo
+	16. add TL to reviewers
+	17. submit pull request
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+	an inline elements occur in the same line where block elements usually break lines to keep the document in shape
+
     2. What happens when an element is positioned absolutely? 
+	an element is positioned absolutely when it is specifically placed in accordance to the containing element
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	adust the element width by %
+	
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	display block - <p><div><section>; inline element <span><img>; inline-block <button>
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+	the box model is kind of like a human body where there the margin is the space around the skin, the border for skin, the 
+	padding for the skeleton and the content for the organs. the fix for the box model is the box-sizing: border-box
